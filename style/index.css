@@ -1,1 +1,97 @@
-/* Add CSS styling here */
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+a {
+    border: solid 2px;
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1.5rem;
+}
+
+nav{
+ margin-top: 1.5rem;
+}
+.container3 {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 8em;
+    }
+    a{
+        padding: 1rem 0;
+        font-size: 1em;
+    }
+    .headerImg {
+        margin: 0 2em;
+    }
+    .container3{
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    p {
+        text-align: center;
+    }
+    .container3 img{
+        width: 10em;
+    }
+    .left,.right{
+        margin: 0 2rem;
+    }
+    button{
+        margin: 0 10rem;
+    }
+}
+@media (max-width:500px) {
+    .container3 img{
+        width: 10rem;
+    }
+    .container3{
+        margin: 0 3rem;
+    }
+}
+@media (max-width:350px) {
+    nav{
+        padding: 0 1rem;
+    }
+    h1{
+        text-align: center;
+    }
+}
